@@ -4,6 +4,7 @@ function Card(props) {
   // javascript here
   return (
     <div className="card" style="width: 18rem;">
+      <h2>{props.name}</h2>
       <img src="..." className="card-img-top" alt="..." />
       <div className="card-body">
         <p className="card-text">{props.description}</p>
