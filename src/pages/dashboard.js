@@ -32,7 +32,13 @@ function Dashboard() {
       name: "Spanish",
       description: "This is a Spanish course",
       category: "language",
-      
+
+    }, 
+    {
+      id: 6,
+      name: "Tasnim",
+      description: "This is a Tasnim course",
+      category: "Smartness and beauty of Tasnim",
     }
   ]);
   return (
