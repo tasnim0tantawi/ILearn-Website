@@ -27,6 +27,13 @@ function Dashboard() {
       description: "This is an English course",
       category: "language",
     },
+    {
+      id: 5,
+      name: "Spanish",
+      description: "This is a Spanish course",
+      category: "language",
+      
+    }
   ]);
   return (
     <div>
