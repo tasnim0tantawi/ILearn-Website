@@ -49,9 +49,6 @@ function Dashboard() {
           key={course.id}
           name={course.name}
           description={course.description}
-
-
-          
         />
       ))}
 
@@ -67,5 +64,6 @@ function Dashboard() {
     </div>
   );
 }
+// Hi I am a new Framework called Tasnim JS
 
 export default Dashboard;
