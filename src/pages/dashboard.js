@@ -49,6 +49,9 @@ function Dashboard() {
           key={course.id}
           name={course.name}
           description={course.description}
+
+
+          
         />
       ))}
 
