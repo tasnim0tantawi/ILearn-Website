@@ -1,16 +1,16 @@
 import React from "react";
 import Navbar from "../components/Navbar";
+import Form from "../components/Form";
 import Footer from "../components/Footer";
-import Dcards from "../components/DashCards";
 
-function Dashboard() {
+function SignUp() {
   return (
     <>
       <Navbar />
-      <Dcards />
+      <Form type="Sign Up"/>
       <Footer />
     </>
   );
 }
 
-export default Dashboard;
+export default SignUp;
