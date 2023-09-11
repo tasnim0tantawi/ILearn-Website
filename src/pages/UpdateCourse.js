@@ -1,19 +1,16 @@
 import React from "react";
 import Header from "../components/Header";
-
-import Cards from "../components/Cards";
+import CoursesForm from "../components/CoursesForm";
 import Footer from "../components/Footer";
 
-function MyCourses() {
+function UpdateCourse() {
     return (
         <>
           <Header />
-
-
-          <Cards title="My courses"/>
+          <CoursesForm type="Update"/>
           <Footer />
         </>
       );
   }
   
-  export default MyCourses;
+  export default UpdateCourse;

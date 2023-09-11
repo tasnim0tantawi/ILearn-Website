@@ -6,10 +6,9 @@ import {
   Routes,
   Router,
 } from "react-router-dom";
-import Home from "./pages/home";
-import Dashboard from "./pages/dashboard";
-import LogIn from "./pages/login";
-import Register from "./pages/register";
+import Home from "./pages/Home";
+import Dashboard from "./pages/Dashboard";
+import LogIn from "./pages/LogIn";
 import SignUp from "./pages/SignUp";
 import AboutUs from "./pages/AboutUs";
 import ListOfCourses from "./pages/ListOfCourses";
@@ -25,10 +24,11 @@ function AppRouter() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path={"/dashboard"} element={<Dashboard />} />
-        <Route path={"/login"} element={<LogIn />} />
-        <Route path={"/register"} element={<Register />} />
-        <Route path={"/signUp"} element={<SignUp />} />
+        <Route path={"/Dashboard"} element={<Dashboard />} />
+        <Route path={"/LogIn"} element={<LogIn />} />
+        <Route path={"/Register"} element={<Register />} />
+        <Route path={"/SignUp"} element={<SignUp />} />
+
         <Route path={"/ListOfCourses"} element={<ListOfCourses />} />
         <Route path={"/MyCourses"} element={<MyCourses />} />
         <Route path={"/SeeMore"} element={<SeeMore />} />

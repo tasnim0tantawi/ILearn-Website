@@ -1,19 +1,15 @@
 import React from "react";
 import Header from "../components/Header";
-
-import Cards from "../components/Cards";
+import AboutUsText from "../components/AboutUsText"
 import Footer from "../components/Footer";
 
-function MyCourses() {
+function AboutUs() {
     return (
         <>
           <Header />
-
-
-          <Cards title="My courses"/>
+          <AboutUsText />
           <Footer />
         </>
-      );
-  }
+      );  }
   
-  export default MyCourses;
+  export default AboutUs;

@@ -1,19 +1,16 @@
 import React from "react";
 import Header from "../components/Header";
-
-import Cards from "../components/Cards";
+import AddInst from "../components/AddInst"
 import Footer from "../components/Footer";
 
-function MyCourses() {
+function AddIns() {
     return (
         <>
           <Header />
-
-
-          <Cards title="My courses"/>
+          <AddInst />
           <Footer />
         </>
       );
   }
   
-  export default MyCourses;
+  export default AddIns;
