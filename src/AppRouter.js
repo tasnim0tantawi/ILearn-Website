@@ -9,7 +9,6 @@ import {
 import Home from "./pages/Home";
 import Dashboard from "./pages/Dashboard";
 import LogIn from "./pages/LogIn";
-import Register from "./pages/Register";
 import SignUp from "./pages/SignUp";
 import AboutUs from "./pages/AboutUs";
 import ListOfCourses from "./pages/ListOfCourses";
@@ -29,6 +28,7 @@ function AppRouter() {
         <Route path={"/LogIn"} element={<LogIn />} />
         <Route path={"/Register"} element={<Register />} />
         <Route path={"/SignUp"} element={<SignUp />} />
+
         <Route path={"/ListOfCourses"} element={<ListOfCourses />} />
         <Route path={"/MyCourses"} element={<MyCourses />} />
         <Route path={"/SeeMore"} element={<SeeMore />} />

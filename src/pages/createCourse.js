@@ -1,16 +1,16 @@
 import React from "react";
 import Navbar from "../components/Navbar";
+import CoursesForm from "../components/CoursesForm";
 import Footer from "../components/Footer";
-import Dcards from "../components/DashCards";
 
-function Dashboard() {
+function CreateCourse() {
   return (
     <>
       <Navbar />
-      <Dcards />
+      <CoursesForm type="Create"/>
       <Footer />
     </>
   );
 }
 
-export default Dashboard;
+export default CreateCourse;
